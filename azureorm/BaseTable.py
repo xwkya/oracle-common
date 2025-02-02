@@ -1,4 +1,4 @@
-from ORMWrapper import Base
+from .ORMWrapper import Base
 from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 
