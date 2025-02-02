@@ -16,7 +16,7 @@ from sqlalchemy.orm import sessionmaker, Session, declarative_base
 from tqdm import tqdm
 from contextlib import contextmanager
 
-from db_config import get_connection_string, setup_azure_token_provider
+from .db_config import get_connection_string, setup_azure_token_provider
 
 
 Base = declarative_base()
