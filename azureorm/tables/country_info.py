@@ -10,4 +10,3 @@ class CountryInfo(BaseTable):
     Year = Column(SmallInteger, primary_key=True, nullable=False)
     CountryName = Column(String(100), nullable=True)
     GdpBillionUSD = Column(Float, nullable=True)
-    Population = Column(Float, nullable=True)
